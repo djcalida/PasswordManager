@@ -6,7 +6,7 @@ function validate() {
         document.getElementById("result").innerHTML = "Please fill in all fields";
         return false;
     }
-    else if (username == "Chudiponggo" && password == "Chudiponggol041503") {
+    else if (username == "Chudiponggol" && password == "Chudiponggol041503") {
         window.location.href = "verified.html";
         return true;
     }
